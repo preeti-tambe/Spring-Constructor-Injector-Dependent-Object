@@ -21,7 +21,7 @@ public class Employee {
 		return address;
 	}
 	
-	void show(){  
+	public void show(){  
 	    System.out.println(id+" "+name);  
 	    System.out.println(address.toString());  
 	}  
